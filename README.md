@@ -5,4 +5,13 @@ First, create the Python environment:
   sudo apt-get update
   sudo apt-get install libpython3-dev
   sudo apt-get install python3-venv
+  python3 -m venv .
+
+To change into the venv:
+
+  source bin/activate
+
+I always forget about requirements.txt, so here is how to create it:
+
+  pip freeze > requirements.txt
 
