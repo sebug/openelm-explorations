@@ -15,3 +15,6 @@ I always forget about requirements.txt, so here is how to create it:
 
   pip freeze > requirements.txt
 
+To run the model:
+
+  python generate_openelm.py --model apple/OpenELM-1_1B-Instruct --hf_access_token [YOUR_TOKEN] --prompt "There once was a duck called" --generate_kwargs repetition_penalty=1.2
