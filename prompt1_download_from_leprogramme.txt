@@ -1,0 +1,2 @@
+Let's say I have a link like this: https://leprogramme.ch/agenda-culturel-du-jour/Vaud/2024-05-07 . Give me a python script
+that downloads the page and lists all the links.
